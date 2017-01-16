@@ -5,4 +5,9 @@ public class Bird implements Animal {
     public String makeSound() {
         return "tweet tweet";
     }
+
+    public String fly(int minutes) {
+        return "I'm flying for " + minutes + " minutes!";
+    }
+
 }
